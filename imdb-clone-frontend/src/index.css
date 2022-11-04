@@ -1,0 +1,62 @@
+body{
+  background-color:antiquewhite;
+  margin: 0;
+}
+
+/* navbar */
+
+.navbar {
+  padding-top: 10px;
+}
+.addmoviebutton{
+  color: aliceblue !important;
+  font-style: normal !important;
+}
+
+.nU{
+  text-decoration: none !important;
+}
+
+/* moviecard */
+.moviecard{
+  display: flex;
+  justify-content: center;
+}
+.moviecard-card {
+  width: 70% !important;
+  height: 100% !important;
+}
+
+/* add movie page */
+
+.addmoviecontainer{
+  flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:90vh;  
+    width: 100%;
+}
+/* .addmoviecontainer form {
+  width: 100%;
+} */
+.addmovietitle{
+  padding: 30px 30px 5px 30px;
+}
+.formcontainer-addmovie{
+  width: 100%;
+}
+.inputfield-addmovie{
+  margin: 10px !important;
+  width: 100% !important;
+}
+.formcontrol-addmovie{
+  width: 100% !important;
+}
+.form-submit-button{
+  display: flex;
+  justify-content: center;
+}
+.go-back-button{
+  margin-right: 2px;
+}
